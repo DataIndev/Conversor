@@ -2,6 +2,8 @@ package com.dataindev.view;
 
 import javax.swing.*;
 import javax.swing.JFrame;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class Conversor {
     public static void main(String[] args) {
@@ -13,6 +15,7 @@ public class Conversor {
         frame.setSize(800, 450);
         frame.setLocationRelativeTo(null);
     }
+
     private JPanel panel;
     private JComboBox Divisas1;
     private JComboBox Divisas2;
@@ -29,7 +32,12 @@ public class Conversor {
     private JLabel Salida;
     private JButton convertirButton;
 
+
     private void createUIComponents() {
-        // TODO: place custom component creation code here
+
+    }
+
+    public void saludo() {
+        System.out.println("Hola Mundo");
     }
 }

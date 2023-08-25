@@ -113,6 +113,7 @@
             </constraints>
             <properties>
               <background color="-1"/>
+              <editable value="true"/>
               <foreground color="-16777216"/>
               <text value="$"/>
             </properties>
