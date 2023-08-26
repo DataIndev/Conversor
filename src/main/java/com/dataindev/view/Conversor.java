@@ -5,16 +5,7 @@ import javax.swing.JFrame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Conversor {
-    public static void main(String[] args) {
-        JFrame frame = new JFrame("Conversor de divisas");
-        frame.setContentPane(new Conversor().panel);
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.pack();
-        frame.setVisible(true);
-        frame.setSize(800, 450);
-        frame.setLocationRelativeTo(null);
-    }
+public class Conversor extends JFrame {
 
     private JPanel panel;
     private JComboBox Divisas1;
@@ -32,12 +23,17 @@ public class Conversor {
     private JLabel Salida;
     private JButton convertirButton;
 
+    public Conversor(){
+        super("Conversor de divisas");
+        setContentPane(panel);
 
-    private void createUIComponents() {
-
+        convertirButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("texto");
+            }
+        });
     }
 
-    public void saludo() {
-        System.out.println("Hola Mundo");
-    }
+
 }
