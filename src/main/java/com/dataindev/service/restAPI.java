@@ -15,7 +15,7 @@ import java.text.DecimalFormat;
 public class restAPI {
 
 
-    public restAPI(String currency1, String currency2) throws IOException {
+    public double exchange(String currency1, String currency2) throws IOException {
 
         DecimalFormat decimalFormat = new DecimalFormat("###.###");
 
@@ -31,24 +31,9 @@ public class restAPI {
 
         float req_result = obj.get("conversion_rates").getAsJsonObject().get(currency2).getAsFloat();
 
-        System.out.println(decimalFormat.format(req_result));
+        //System.out.println(decimalFormat.format(req_result));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        return req_result;
 
     }
 
