@@ -1,1 +1,8 @@
 # Conversor de moneda
+Primer Challenge de la *Especialización en Back-end con Java* y segundo realizado a lo largo del programa **Oracle Next Education** y realizado con la librería **Java Swing**.
+<br>
+<br>
+El objetivo principal fue realizar un programa ejecutable para escritorio que permita obtener la conversión entre diferentes divisas, teniendo la posibilidad también de agregar otro tipo de conversiones como temperatura, medidas de peso o distancia, etc.
+<br>
+<br>
+Este proyecto se realizó con el fin de practicar y reforzar nuestros conocimientos adquiridos en *Programación Orientada a Objetos* y el manejo de librerías para creación de GUI. 
