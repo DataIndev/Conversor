@@ -366,7 +366,7 @@
             </constraints>
             <properties>
               <background color="-1"/>
-              <font name="Baloo Bhaijaan" size="20" style="1"/>
+              <font name="Baloo Bhaijaan" size="26" style="1"/>
               <foreground color="-16761749"/>
               <text value="Le damos la bienvenida a la herramienta de divisas más fiable del mundo"/>
             </properties>
