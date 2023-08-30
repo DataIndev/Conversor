@@ -3,10 +3,13 @@ package com.dataindev.view;
 import com.dataindev.service.restAPI;
 
 import javax.swing.*;
+import javax.swing.JFrame;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.text.DecimalFormat;
+import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Objects;
 
 public class Conversor extends JFrame {
@@ -18,6 +21,7 @@ public class Conversor extends JFrame {
     private JPanel PanelSalida;
     private JTextField CajaIngreso;
     private JPanel TextoAdicional;
+    private JLabel Leyenda;
     private JLabel Titulo;
     private JLabel Salida2;
     private JPanel PanelSalida3;
