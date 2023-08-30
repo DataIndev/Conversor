@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.dataindev.view.Conversor">
-  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="17" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="panel" layout-manager="GridLayoutManager" row-count="17" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
       <xy x="20" y="20" width="916" height="581"/>
@@ -8,14 +8,14 @@
     <properties>
       <background color="-1"/>
       <enabled value="false"/>
-      <focusCycleRoot value="true"/>
+      <focusCycleRoot value="false"/>
       <focusable value="true"/>
       <font name="Andale Mono" size="14"/>
       <foreground color="-16761749"/>
-      <maximumSize width="700" height="300"/>
-      <minimumSize width="700" height="300"/>
+      <maximumSize width="900" height="300"/>
+      <minimumSize width="900" height="300"/>
       <opaque value="true"/>
-      <preferredSize width="700" height="300"/>
+      <preferredSize width="900" height="300"/>
       <visible value="true"/>
     </properties>
     <border type="line" title="" title-justification="2">
@@ -26,7 +26,7 @@
     <children>
       <component id="709c0" class="javax.swing.JLabel">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Andale Mono" size="14" style="0"/>
@@ -36,7 +36,7 @@
       </component>
       <component id="b9bff" class="javax.swing.JLabel">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Andale Mono" size="14"/>
@@ -46,43 +46,132 @@
       </component>
       <component id="2481e" class="javax.swing.JComboBox" binding="Divisas1">
         <constraints>
-          <grid row="4" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="4" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
           <foreground color="-16777216"/>
           <model>
             <item value="USD - Dólar estadounidense"/>
-            <item value="MXN - Peso Mexicano"/>
             <item value="EUR - Euro"/>
+            <item value="JPY - Yen japonés"/>
+            <item value="GBP - Libra esterlina británica"/>
+            <item value="AUD - Dólar australiano"/>
             <item value="CAD - Dólar canadiense"/>
+            <item value="CHF - Franco suizo"/>
+            <item value="CNY - Yuan chino"/>
+            <item value="SEK - Corona sueca"/>
+            <item value="NZD - Dólar neozelandés"/>
+            <item value="NOK - Corona noruega"/>
+            <item value="ZAR - Rand sudafricano"/>
+            <item value="MXN - Peso mexicano"/>
+            <item value="SGD - Dólar de Singapur"/>
+            <item value="HKD - Dólar de Hong Kong"/>
+            <item value="KRW - Won surcoreano"/>
+            <item value="TRY - Lira turca"/>
+            <item value="INR - Rupia india"/>
+            <item value="BRL - Real brasileño"/>
+            <item value="RUB - Rublo ruso"/>
+            <item value="AED - Dirham de los Emiratos Árabes Unidos"/>
+            <item value="SAR - Riyal saudí"/>
+            <item value="IDR - Rupia indonesia"/>
+            <item value="MYR - Ringgit malasio"/>
+            <item value="THB - Baht tailandés"/>
+            <item value="PHP - Peso filipino"/>
+            <item value="PLN - Złoty polaco"/>
+            <item value="DKK - Corona danesa"/>
+            <item value="HUF - Forint húngaro"/>
+            <item value="CZK - Corona checa"/>
+            <item value="CLP - Peso chileno"/>
+            <item value="COP - Peso colombiano"/>
+            <item value="ARS - Peso argentino"/>
+            <item value="TWD - Nuevo dólar taiwanés"/>
+            <item value="ILS - Shekel israelí"/>
+            <item value="KWD - Dinar kuwaití"/>
+            <item value="VND - Dong vietnamita"/>
+            <item value="NGN - Naira nigeriana"/>
+            <item value="EGP - Libra egipcia"/>
+            <item value="IQD - Dinar iraquí"/>
+            <item value="AOA - Kwanza angoleño"/>
+            <item value="UAH - Grivna ucraniana"/>
+            <item value="SGD - Dólar de Singapur"/>
+            <item value="QAR - Riyal catarí"/>
+            <item value="BHD - Dinar bahreiní"/>
+            <item value="HNL - Lempira hondureña"/>
+            <item value="XPF - Franco CFP"/>
+            <item value="GTQ - Quetzal guatemalteco"/>
+            <item value="PAB - Balboa panameño"/>
+            <item value="MAD - Dirham marroquí"/>
           </model>
         </properties>
       </component>
       <component id="22ca2" class="javax.swing.JComboBox" binding="Divisas2">
         <constraints>
-          <grid row="4" column="5" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="7" row-span="3" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="281" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1"/>
           <foreground color="-16777216"/>
           <model>
-            <item value="MXN - Peso Mexicano"/>
+            <item value="MXN - Peso mexicano"/>
             <item value="USD - Dólar estadounidense"/>
             <item value="EUR - Euro"/>
+            <item value="JPY - Yen japonés"/>
+            <item value="GBP - Libra esterlina británica"/>
+            <item value="AUD - Dólar australiano"/>
             <item value="CAD - Dólar canadiense"/>
+            <item value="CHF - Franco suizo"/>
+            <item value="CNY - Yuan chino"/>
+            <item value="SEK - Corona sueca"/>
+            <item value="NZD - Dólar neozelandés"/>
+            <item value="NOK - Corona noruega"/>
+            <item value="ZAR - Rand sudafricano"/>
+            <item value="SGD - Dólar de Singapur"/>
+            <item value="HKD - Dólar de Hong Kong"/>
+            <item value="KRW - Won surcoreano"/>
+            <item value="TRY - Lira turca"/>
+            <item value="INR - Rupia india"/>
+            <item value="BRL - Real brasileño"/>
+            <item value="RUB - Rublo ruso"/>
+            <item value="AED - Dirham de los Emiratos Árabes Unidos"/>
+            <item value="SAR - Riyal saudí"/>
+            <item value="IDR - Rupia indonesia"/>
+            <item value="MYR - Ringgit malasio"/>
+            <item value="THB - Baht tailandés"/>
+            <item value="PHP - Peso filipino"/>
+            <item value="PLN - Złoty polaco"/>
+            <item value="DKK - Corona danesa"/>
+            <item value="HUF - Forint húngaro"/>
+            <item value="CZK - Corona checa"/>
+            <item value="CLP - Peso chileno"/>
+            <item value="COP - Peso colombiano"/>
+            <item value="ARS - Peso argentino"/>
+            <item value="TWD - Nuevo dólar taiwanés"/>
+            <item value="ILS - Shekel israelí"/>
+            <item value="KWD - Dinar kuwaití"/>
+            <item value="VND - Dong vietnamita"/>
+            <item value="NGN - Naira nigeriana"/>
+            <item value="EGP - Libra egipcia"/>
+            <item value="IQD - Dinar iraquí"/>
+            <item value="AOA - Kwanza angoleño"/>
+            <item value="UAH - Grivna ucraniana"/>
+            <item value="SGD - Dólar de Singapur"/>
+            <item value="QAR - Riyal catarí"/>
+            <item value="BHD - Dinar bahreiní"/>
+            <item value="HNL - Lempira hondureña"/>
+            <item value="XPF - Franco CFP"/>
+            <item value="GTQ - Quetzal guatemalteco"/>
+            <item value="PAB - Balboa panameño"/>
+            <item value="MAD - Dirham marroquí"/>
           </model>
         </properties>
       </component>
-      <hspacer id="fffe5">
-        <constraints>
-          <grid row="4" column="6" row-span="3" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-      </hspacer>
       <grid id="c97e0" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="7" column="1" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="7" column="3" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <foreground color="-1"/>
@@ -94,7 +183,7 @@
       <grid id="1c1e1" binding="PanelIngreso" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="4" column="1" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+          <grid row="4" column="3" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
@@ -122,12 +211,14 @@
       </grid>
       <hspacer id="29609">
         <constraints>
-          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <component id="6fb7a" class="javax.swing.JLabel">
         <constraints>
-          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="281" height="16"/>
+          </grid>
         </constraints>
         <properties>
           <font name="Andale Mono" size="14"/>
@@ -137,13 +228,15 @@
       </component>
       <vspacer id="23dee">
         <constraints>
-          <grid row="15" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="15" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="281" height="14"/>
+          </grid>
         </constraints>
       </vspacer>
       <grid id="af873" binding="PanelSalida" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
@@ -155,9 +248,9 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <font name="Andale Mono" size="14" style="3"/>
+              <font name="Andale Mono" size="16" style="3"/>
               <foreground color="-16777216"/>
-              <text value="1,00 Dólar estadounidense"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
@@ -165,7 +258,7 @@
       <grid id="1e56e" binding="PanelSalida3" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="13" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
@@ -178,37 +271,37 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <font name="Andale Mono" size="14" style="3"/>
+              <font name="Andale Mono" size="16" style="3"/>
               <foreground color="-16777216"/>
-              <text value="1 MXN = 0,0590688 USD"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
       </grid>
       <vspacer id="1e18d">
         <constraints>
-          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <vspacer id="56189">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <vspacer id="2cea6">
         <constraints>
-          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="14" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <vspacer id="a7227">
         <constraints>
-          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <grid id="52aee" binding="PanelSalida2" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="11" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="11" column="3" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
@@ -221,35 +314,38 @@
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <font name="Andale Mono" size="18" style="0"/>
+              <font name="Andale Mono" size="22" style="1"/>
               <foreground color="-16777216"/>
-              <text value="16,929421 MEXICAN PESOS"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
       </grid>
       <vspacer id="d163">
         <constraints>
-          <grid row="16" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="16" column="3" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <grid id="5c2c" binding="TextoAdicional" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="15" column="1" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="15" column="3" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
         </properties>
         <border type="none"/>
         <children>
-          <component id="ebac0" class="javax.swing.JLabel" binding="Leyenda">
+          <component id="3cb2e" class="javax.swing.JTextArea" binding="footer">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
             </constraints>
             <properties>
+              <background color="-1"/>
               <foreground color="-16777216"/>
-              <text value="Usamos la tasa del mercado medio para nuestro conversor."/>
+              <text value=""/>
             </properties>
           </component>
         </children>
@@ -257,7 +353,7 @@
       <grid id="83ef6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="1" column="1" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="3" row-span="1" col-span="5" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1"/>
@@ -279,18 +375,20 @@
       </grid>
       <vspacer id="6e970">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <vspacer id="89ba1">
         <constraints>
-          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <grid id="c44c7" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="7" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="281" height="34"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1"/>
@@ -310,6 +408,31 @@
           </component>
         </children>
       </grid>
+      <hspacer id="ef789">
+        <constraints>
+          <grid row="8" column="9" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="6db44">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="6101b">
+        <constraints>
+          <grid row="8" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="a8564">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="7af58">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
     </children>
   </grid>
 </form>
