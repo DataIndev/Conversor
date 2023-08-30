@@ -47,7 +47,7 @@ public class Conversor extends JFrame {
                     double newCurrency = rs.exchange(currency1, currency2);
                     Salida.setText(CajaIngreso.getText() + " " + Divisas1.getSelectedItem().toString().substring(6));
                     Salida2.setText((df.format(newCurrency* Double.parseDouble(CajaIngreso.getText()))) + " " + Divisas2.getSelectedItem().toString().substring(6));
-                    Salida3.setText(CajaIngreso.getText() + " " + Divisas2.getSelectedItem().toString().substring(0,3) + " = " +(df.format(rs.exchange(currency2,currency1))) + " " + Divisas1.getSelectedItem().toString().substring(0,3));
+                    Salida3.setText(CajaIngreso.getText() + " " + Divisas2.getSelectedItem().toString().substring(0,3) + " = " +(df.format(rs.exchange(currency2,currency1)* Double.parseDouble(CajaIngreso.getText()))) + " " + Divisas1.getSelectedItem().toString().substring(0,3));
                 } catch (IOException ex) {
                     throw new RuntimeException(ex);
                 }
